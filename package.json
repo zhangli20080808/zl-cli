@@ -1,0 +1,32 @@
+{
+  "name": "zl-cli",
+  "version": "1.0.0",
+  "description": "this is a cli program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel src -d dist",
+    "watch": "npm run compile -- --watch"
+  },
+  "bin": {
+    "zl-cli": "./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangli20080808/zl-cli.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-env": "^2.4.1"
+  },
+  "dependencies": {
+    "commander": "^6.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangli20080808/zl-cli/issues"
+  },
+  "homepage": "https://github.com/zhangli20080808/zl-cli#readme"
+}
