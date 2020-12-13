@@ -17,7 +17,10 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-env": "^2.4.1"
+    "babel-env": "^2.4.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.3.3",
+    "ora": "^5.1.0"
   },
   "dependencies": {
     "commander": "^6.2.0"

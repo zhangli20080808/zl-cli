@@ -13,3 +13,7 @@ export const DEFAUTLS = {
   registry: 'zhufeng-cli',
   type: 'orgs',
 };
+
+
+// 下载目录
+export const DOWNLOAD = `${HOME}/.template`
