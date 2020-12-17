@@ -53,5 +53,7 @@ export const downloadLocal = async (project, version) => {
   if (version) {
     api += `#${version}`;
   }
-  await download(api, DOWNLOAD + '/' + project);
+  const dest = `${DOWNLOAD}/${project}`;
+  await download(api, dest);
+  return dest;
 };

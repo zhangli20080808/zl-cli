@@ -10,7 +10,7 @@ export const RC = `${HOME}/.zlclirc`;
 // 用户目录 users  组织目录  orgs
 
 export const DEFAUTLS = {
-  registry: 'zhufeng-cli',
+  registry: 'zl-happy-learning',
   type: 'orgs',
 };
 

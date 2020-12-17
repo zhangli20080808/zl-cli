@@ -23,7 +23,10 @@
     "ora": "^5.1.0"
   },
   "dependencies": {
-    "commander": "^6.2.0"
+    "commander": "^6.2.0",
+    "consolidate": "^0.16.0",
+    "metalsmith": "^2.3.0",
+    "ncp": "^2.0.0"
   },
   "keywords": [],
   "author": "",
