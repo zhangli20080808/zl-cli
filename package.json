@@ -1,5 +1,5 @@
 {
-  "name": "zl-cli",
+  "name": "zl-first-cli",
   "version": "1.0.0",
   "description": "this is a cli program",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "watch": "npm run compile -- --watch"
   },
   "bin": {
-    "zl-cli": "./bin/www"
+    "zl-first-cli": "./bin/www"
   },
   "repository": {
     "type": "git",
