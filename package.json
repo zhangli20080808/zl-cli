@@ -11,10 +11,6 @@
   "bin": {
     "zl-first-cli": "./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhangli20080808/zl-cli.git"
-  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-env": "^2.4.1",
